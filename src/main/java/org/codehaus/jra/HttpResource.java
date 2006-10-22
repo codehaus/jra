@@ -10,5 +10,4 @@ public @interface HttpResource {
     String queryParameterSeparator() default "&";
     String inputSerialization() default "";
     String outputSerialization() default "";
-    
 }

@@ -15,6 +15,7 @@
       <version>3.8.1</version>
     </dependency>
   </dependencies>
+
   <scm>
     <connection>scm:svn:https://svn.codehaus.org/jra/trunk</connection>
     <developerConnection>scm:svn:https://${maven.username}@svn.codehaus.org/jra/trunk</developerConnection>

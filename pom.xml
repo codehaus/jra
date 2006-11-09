@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.codehaus.jra</groupId>
   <artifactId>jra</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0-alpha-1</version>
   <name>Java Rest Annotations</name>
 
   <dependencies>
@@ -14,9 +14,9 @@
   </dependencies>
 
   <scm>
-    <connection>scm:svn:https://svn.codehaus.org/jra/trunk</connection>
-    <developerConnection>scm:svn:https://${maven.username}@svn.codehaus.org/jra/trunk</developerConnection>
-    <url>https://svn.jra.codehaus.org/viewrep/jra/trunk</url>
+    <connection>scm:svn:https://svn.codehaus.org/jra/branches/jra-1.0-alpha-1</connection>
+    <developerConnection>scm:svn:https://svn.codehaus.org/jra/branches/jra-1.0-alpha-1</developerConnection>
+    <url>https://svn.codehaus.org/jra/branches/jra-1.0-alpha-1</url>
   </scm>
   <build>
     <extensions>

@@ -4,7 +4,8 @@
   <artifactId>jra</artifactId>
   <version>1.0-SNAPSHOT</version>
   <name>Java Rest Annotations</name>
-
+  <url>http://jra.codehaus.org</url>
+  
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -14,6 +15,18 @@
     </dependency>
   </dependencies>
 
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://jra.codehaus.org/License</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <organization>
+    <name>Envoi Solutions LLC</name>
+    <url>http://www.envoisolutions.com/</url>
+  </organization>
+  
   <scm>
     <connection>scm:svn:https://svn.codehaus.org/jra/trunk</connection>
     <developerConnection>scm:svn:https://svn.codehaus.org/jra/trunk</developerConnection>

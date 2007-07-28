@@ -33,12 +33,13 @@ public final class ResourceUtil {
                 if (next == -1) {
                     throw new IllegalStateException("Missing end bracket in URI " + resource);
                 } else {
+                    int start = i;
                     i = next + 1;
                     
                     if (i == resource.length()) {
                         // if } is the last part of the resource, assume the
                         // rest of the request uri matches
-                        return reqUri.length();
+                        return start-1;
                     }
 
                     // find the character immediately after the }

@@ -33,4 +33,14 @@ public class ResourceUtilTest extends TestCase {
         assertEquals(1, params.size());
         assertEquals("123", params.get("id"));
     }
+    
+    public void testScores() {
+        int m1 = ResourceUtil.getMatchScore("/customer/123", "/customer/{123}");
+        int m2 = ResourceUtil.getMatchScore("/customer/details/123", "/customer/details/{123}");
+        int m3 = ResourceUtil.getMatchScore("/customer/details/123", "/customer/{123}");
+        
+        assertEquals(9, m1);
+        assertEquals(17, m2);
+        assertEquals(9, m3);
+    }
 }
